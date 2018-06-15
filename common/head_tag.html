@@ -1,10 +1,10 @@
 <script type="text/discourse-plugin" version="0.8.23">
   api.addSharingSource({
-    id: "settings.social_id",
-    icon: "settings.social_icon",
-    title: "share it",
+    id: settings.social_id,
+    icon: settings.social_icon,
+    title: "",
     generateUrl: function(link, title) {
-      return "settings.social_link" + encodeURIComponent(link)  + "&title=" + 
+      return settings.social_link + encodeURIComponent(link)  + "&title=" + 
 encodeURIComponent(title);
     },
     shouldOpenInPopup: true,
