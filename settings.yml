@@ -1,0 +1,11 @@
+social_id: 
+  default: ""
+  description: 'This is ID'
+  
+social_icon: 
+  default: ""
+  description: 'This is the icon'  
+  
+social_link: 
+  default: ""
+  description: 'This is your social link'  
