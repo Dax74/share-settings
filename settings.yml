@@ -7,5 +7,6 @@ social_icon:
   description: 'This is the icon'  
   
 social_link: 
-  default: ""
+  type: list
+  default: "http://vk.com/share.php?url="
   description: 'This is your social link'  
