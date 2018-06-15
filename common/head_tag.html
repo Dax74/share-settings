@@ -1,9 +1,9 @@
 <script type="text/discourse-plugin" version="0.8.23">
   api.addSharingSource({
-    id: "$social_id",
-    icon: "$social_icon",
+    id: "settings.social_id",
+    icon: "settings.social_icon",
     generateUrl: function(link, title) {
-      return "&social_link" + encodeURIComponent(link)  + "&title=" + 
+      return "settings.social_link" + encodeURIComponent(link)  + "&title=" + 
 encodeURIComponent(title);
     },
     shouldOpenInPopup: true,
