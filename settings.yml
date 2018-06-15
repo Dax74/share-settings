@@ -1,12 +1,15 @@
 social_id: 
   default: ""
-  description: 'This is ID'
+  description: 
+    en: This is ID
   
 social_icon: 
-  default: ""
-  description: 'This is the icon'  
+  default: "vk"
+  description: 
+    en: This is the icon 
   
 social_link: 
   type: list
   default: "http://vk.com/share.php?url="
-  description: 'This is your social link'  
+  description: 
+    en: This is your social link  
