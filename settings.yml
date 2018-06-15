@@ -7,6 +7,11 @@ social_icon:
   default: "vk"
   description: 
     en: This is the icon 
+    
+social_title: 
+  default: ""
+  description: 
+    en: This is the icon    
   
 social_link: 
   type: list
