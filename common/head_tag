@@ -1,9 +1,9 @@
 <script type="text/discourse-plugin" version="0.8.23">
   api.addSharingSource({
-    id: "vk",
-    icon: "vk",
+    id: "$social_id",
+    icon: "$social_icon",
     generateUrl: function(link, title) {
-      return "http://vk.com/share.php?url=" + encodeURIComponent(link)  + "&title=" + 
+      return "&social_link" + encodeURIComponent(link)  + "&title=" + 
 encodeURIComponent(title);
     },
     shouldOpenInPopup: true,
