@@ -4,7 +4,7 @@
     icon: settings.social_icon,
     title: "",
     generateUrl: function(link, title) {
-      return { id, icon, title, settings.social_link + encodeURIComponent(link)  + "&title=" + encodeURIComponent(title) };
+      return settings.social_link + encodeURIComponent(link)  + "&title=" + encodeURIComponent(title);
     },
     shouldOpenInPopup: true,
     popupHeight: 265
