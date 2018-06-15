@@ -1,0 +1,12 @@
+<script type="text/discourse-plugin" version="0.8.23">
+  api.addSharingSource({
+    id: "vk",
+    icon: "vk",
+    generateUrl: function(link, title) {
+      return "http://vk.com/share.php?url=" + encodeURIComponent(link)  + "&title=" + 
+encodeURIComponent(title);
+    },
+    shouldOpenInPopup: true,
+    popupHeight: 265
+  })
+</script>
